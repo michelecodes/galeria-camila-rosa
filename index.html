@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name-="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Galeria Camila Rosa</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;800&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <header>
+            <h1> Galeria Camila Rosa</h1>
+            <button type="button">Inserir imagem</button>
+        </header>
+        <form>
+            <h2>Inserir nova imagem</h2>
+            <input type="url" id="endereco-imagem-nova" required placeholder="URL da imagem" />
+            <button type="submit">Enviar imagem</button>
+            <button type="reset" id="botao-cancelar">Deixar para depois</button>
+        </form>
+        <ul>
+            <li>
+                <img src="./imagens/arte1.png" alt="Arte 1"/>
+                <div class="overlay-imagem-link">
+                    <a href="./imagens/arte1.png" target="_blank" title="Ver imagem">
+                        Ver imagem
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./imagens/arte2.png" alt="Arte 2"/>
+                <div class="overlay-imagem-link">
+                    <a href="./imagens/arte2.png" target="_blank" title="Ver imagem">
+                        Ver imagem
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./imagens/arte3.png" alt="Arte 3"/>
+                <div class="overlay-imagem-link">
+                    <a href="./imagens/arte3.png" target="_blank" title="Ver imagem">
+                        Ver imagem
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./imagens/arte4.png" alt="Arte 4"/>
+                <div class="overlay-imagem-link">
+                    <a href="./imagens/arte4.png" target="_blank" title="Ver imagem">
+                        Ver imagem
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./imagens/arte5.png" alt="Arte 5"/>
+                <div class="overlay-imagem-link">
+                    <a href="./imagens/arte5.png" target="_blank" title="Ver imagem">
+                        Ver imagem
+                    </a>
+                </div>
+            </li>
+            <li>
+                <img src="./imagens/arte6.png" alt="Arte 6"/>
+                <div class="overlay-imagem-link">
+                    <a href="./imagens/arte6.png" target="_blank" title="Ver imagem">
+                        Ver imagem
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

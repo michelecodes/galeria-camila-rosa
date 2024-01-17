@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FD2B45;
+    padding-top: 10px 0;
+    color: #f5b5e0;
+    border-bottom: 5px solid #FEB140;
+    text-transform: uppercase;
+}
+
+header button {
+    margin-left: 540px;
+    text-transform: uppercase;
+    justify-content: center;
+    background-color: #FD2B45;
+    color: #f5b5e0;
+    border: none;
+}
+
+header button:hover {
+    background-color: #FEB140;
+    color: #FD2B45;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: #FEB140;
+    color: #FD2B45;
+    border-bottom: 5px solid #FEB140;
+}
+
+form button {
+    text-align: flex;
+    padding: 8px;
+    background-color: #f5b5e0;
+    color: #FD2B45;
+    cursor: pointer;
+    border: none;
+    border-bottom: 5px solid #FEB140;
+}
+
+form button:hover {
+    background-color: #FEB140;
+    color: #FD2B45;
+    border-bottom: 5px solid #FEB140;
+}
+
+input, button {
+    margin-left: 5px;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 5px solid #FEB140;
+}
+
+#botao-cancelar {
+    background-color: #FD2B45;
+    color: #f5b5e0;
+    border-bottom: 5px solid #FEB140;
+}
+
+#botao-cancelar:hover {
+    background-color: #FEB140;
+    color: #FD2B45;
+    border-bottom: 5px solid #FEB140;
+}
+
+ul {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 32%;
+    list-style: none;
+    margin-left: 12px;
+    position: relative;
+    max-height: 1000px;
+    overflow-y:hidden;
+}
+
+ul li img {
+    width: 100%;
+}
+
+.overlay-imagem-link {
+    padding: 12px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.overlay-imagem-link a {
+    color: #f5b5e0;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link {
+    opacity: 1;
+}
